@@ -4,7 +4,111 @@
  *
  * Site Styles
  *****************************************************************************/
-
- html {
-     color: green;
+html{
+	padding:0;
+}
+nav ul {
+	list-style-type: none; 
+	
+}
+body {
+	margin:0;
+	padding: 10px;
+	background-color: #188AE4;
+	color: #F8A592;
+	font-family: Kristen ITC, Showcard Gothic, arial;
+}
+ h1, h2, h3{
+	color: #F3CCC8;
+	font-family: Showcard Gothic, Kristen ITC, arial; 
+}
+ header {
+	 min-height: 400px;
+	 background-image: url('../img/monkaa_title.jpg');
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	 background-size: cover;
  }
+.lead{
+	font-family:Kristen ITC, Showcard Gothic, arial;
+	font-weight: bold;
+	text-indent: 30px;
+	background: #38AE6E;
+	padding: 10px;
+}
+#social{
+	background: #38AE6E;
+	position: fixed;
+	top:50px;
+	right: 0;
+	width: 25px;
+	transition: 2s width;
+	padding: 10px;
+}
+#social:hover{
+	width: 250px;
+}
+
+#social ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#social li {
+	margin:0;
+	padding: 0;
+}
+footer {
+	background: #38AE6E;
+	text-indent: 30px;
+}
+.weybec-people{
+	list-style-type: none; 
+	display: inline;
+}
+.Nita{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.button {
+	-moz-box-shadow: 3px 4px 0 0 #899599;
+	-webkit-box-shadow: 3px 4px 0 0 #899599;
+	box-shadow: 3px 4px 0 0 #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Showcard Gothic, Kristen ITC,Arial;
+	font-size:17px;
+	padding:7px 25px;
+	margin:5px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #e1e2ed;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
